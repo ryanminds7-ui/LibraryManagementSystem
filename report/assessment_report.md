@@ -2,9 +2,9 @@
 
 **Module:** B100 Introduction to Computer Programming with Python
 **Institution:** Gisma University of Applied Sciences
-**Student:** [Your name] ([Student ID])
-**Date:** [Submission date]
-**Repository:** [GitHub URL]
+**Student:** [KEITH RYAN BUKARA] ([GH1064424])
+**Date:** [18/12/2026]
+**Repository:** [https://github.com/ryanminds7-ui/LibraryManagementSystem]
 
 ---
 
@@ -212,7 +212,21 @@ The fix copies the original file to `books.csv.bak` (or the equivalent for the o
 
 ### 5.2 What I learned
 
-[**Student to complete in your own words.** Suggested points to consider, only if they are true for you: what you understood about classes once objects had to be saved and reloaded; why separating `ValueError` and `LibraryError` made the menu simpler; what the data-loss bug taught you about testing; and which part you found hardest to understand.]
+[*This was my first Python project, and building a complete application
+taught me far more than working on separate exercises. The parts I found
+most difficult were the CSV files and the error messages. Saving objects
+to a file and loading them again was harder than I expected, because the
+data has to be converted to text when it is saved and back into objects
+when the program starts. Error handling was also challenging at first,
+as it was not obvious to me where an error should be detected and where
+the message should be shown to the user. Working through these parts
+step by step improved my understanding of how the different files and
+classes of a program fit together.
+
+This was also my first time using Git and GitHub. The process felt
+confusing at first, but I quickly became comfortable with saving my work
+in commits and uploading it to an online repository, which I now see as
+an important part of developing software professionally.*]
 
 ### 5.3 Limitations
 
@@ -234,13 +248,13 @@ The project delivers a working library system that satisfies the brief using cor
 
 ## References
 
-Python Software Foundation (n.d.) *csv — CSV File Reading and Writing*. Available at: https://docs.python.org/3/library/csv.html (Accessed: [date]).
+Python Software Foundation (n.d.) *csv — CSV File Reading and Writing*. Available at: https://docs.python.org/3/library/csv.html (Accessed: [23 November 2026]).
 
-Python Software Foundation (n.d.) *Errors and Exceptions* (The Python Tutorial). Available at: https://docs.python.org/3/tutorial/errors.html (Accessed: [date]).
+Python Software Foundation (n.d.) *Errors and Exceptions* (The Python Tutorial). Available at: https://docs.python.org/3/tutorial/errors.html (Accessed: [23 November 2026]).
 
-Python Software Foundation (n.d.) *unittest — Unit testing framework*. Available at: https://docs.python.org/3/library/unittest.html (Accessed: [date]).
+Python Software Foundation (n.d.) *unittest — Unit testing framework*. Available at: https://docs.python.org/3/library/unittest.html (Accessed: [23 November 2026]).
 
-van Rossum, G., Warsaw, B. and Coghlan, N. (2001) *PEP 8 – Style Guide for Python Code*. Available at: https://peps.python.org/pep-0008/ (Accessed: [date]).
+van Rossum, G., Warsaw, B. and Coghlan, N. (2001) *PEP 8 – Style Guide for Python Code*. Available at: https://peps.python.org/pep-0008/ (Accessed: [23 November 2026]).
 
 ---
 

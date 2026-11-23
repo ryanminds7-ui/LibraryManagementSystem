@@ -153,7 +153,7 @@ classDiagram
    ```
 2. Clone or download the repository:
    ```bash
-   git clone https://github.com/<your-username>/LibraryManagementSystem.git
+   git clone https://github.com/<ryanminds7-ui>/LibraryManagementSystem.git
    cd LibraryManagementSystem
    ```
 3. No packages need installing (`requirements.txt` documents this).
@@ -275,4 +275,4 @@ python -m pyflakes *.py tests/*.py
 
 ## Author
 
-[Your name] — Gisma University of Applied Sciences, B100 Introduction to Computer Programming with Python, [term/year].
+Keith Ryan Bukara — Gisma University of Applied Sciences, B100 Introduction to Computer Programming with Python, 1st semester/2026.
