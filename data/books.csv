@@ -1,0 +1,7 @@
+isbn,title,author,year,available
+9781593279288,Python Crash Course,Eric Matthes,2019,True
+9780132350884,Clean Code,Robert C. Martin,2008,True
+9780262033848,Introduction to Algorithms,Thomas H. Cormen,2009,False
+9780201633610,Design Patterns,Erich Gamma,1994,True
+9781491946008,Fluent Python,Luciano Ramalho,2015,True
+9780134685991,Effective Java,Joshua Bloch,2018,True
