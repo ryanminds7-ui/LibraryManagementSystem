@@ -1,0 +1,460 @@
+=================== SESSION 1 ===================
+Welcome to the Library Management System
+Loaded 6 book(s), 3 member(s) and 2 transaction(s).
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 1
+
+--- Display all books ---
+ISBN           Title                          Author                 Year  Status
+---------------------------------------------------------------------------------
+9780132350884  Clean Code                     Robert C. Martin       2008  Available
+9780201633610  Design Patterns                Erich Gamma            1994  Available
+9780134685991  Effective Java                 Joshua Bloch           2018  Available
+9781491946008  Fluent Python                  Luciano Ramalho        2015  Available
+9780262033848  Introduction to Algorithms     Thomas H. Cormen       2009  On loan
+9781593279288  Python Crash Course            Eric Matthes           2019  Available
+(6 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 9
+
+--- View available books ---
+ISBN           Title                          Author                 Year  Status
+---------------------------------------------------------------------------------
+9780132350884  Clean Code                     Robert C. Martin       2008  Available
+9780201633610  Design Patterns                Erich Gamma            1994  Available
+9780134685991  Effective Java                 Joshua Bloch           2018  Available
+9781491946008  Fluent Python                  Luciano Ramalho        2015  Available
+9781593279288  Python Crash Course            Eric Matthes           2019  Available
+(5 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 3
+
+--- Search for a book ---
+Search by: 1) Title  2) Author  3) ISBN  4) Any field
+Choose 1-4: 1
+Search term: python
+ISBN           Title                          Author                 Year  Status
+---------------------------------------------------------------------------------
+9781491946008  Fluent Python                  Luciano Ramalho        2015  Available
+9781593279288  Python Crash Course            Eric Matthes           2019  Available
+(2 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 3
+
+--- Search for a book ---
+Search by: 1) Title  2) Author  3) ISBN  4) Any field
+Choose 1-4: 2
+Search term: ramalho
+ISBN           Title                          Author                 Year  Status
+---------------------------------------------------------------------------------
+9781491946008  Fluent Python                  Luciano Ramalho        2015  Available
+(1 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 2
+
+--- Add a new book ---
+ISBN: 9780596007126
+Title: 
+  This field is required. Please try again.
+Title: Head First Design Patterns
+Author: Eric Freeman
+Publication year: 2004
+Book added: 'Head First Design Patterns' (ISBN 9780596007126).
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 2
+
+--- Add a new book ---
+ISBN: 978-1-59327-928-8
+Title: Duplicate
+Author: Someone
+Publication year: 2020
+Error: A book with ISBN 9781593279288 already exists.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 2
+
+--- Add a new book ---
+ISBN: 9781234567897
+Title: Test Book
+Author: Someone
+Publication year: abc
+Invalid input: Publication year must be a whole number.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 4
+
+--- Register a library member ---
+Member ID (e.g. M004): M004
+Full name: Jonas Weber
+Email: jonas.weber@example.com
+Member registered: Jonas Weber (M004).
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 4
+
+--- Register a library member ---
+Member ID (e.g. M004): m001
+Full name: Copy Cat
+Email: copy@example.com
+Error: Member ID M001 is already registered.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 4
+
+--- Register a library member ---
+Member ID (e.g. M004): M005
+Full name: Bad Email
+Email: not-an-email
+Invalid input: Email address must look like name@example.com.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 5
+
+--- Display all members ---
+ID       Name                     Email                          Loans
+----------------------------------------------------------------------
+M001     Anna Schmidt             anna.schmidt@example.com       0/3
+M002     David Okafor             david.okafor@example.com       1/3
+M003     Lena Fischer             lena.fischer@example.com       0/3
+M004     Jonas Weber              jonas.weber@example.com        0/3
+(4 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 6
+
+--- Borrow a book ---
+ISBN of the book: 9780132350884
+Member ID: M004
+Success: 'Clean Code' borrowed by M004 (transaction #3).
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 6
+
+--- Borrow a book ---
+ISBN of the book: 9780132350884
+Member ID: M001
+Error: 'Clean Code' is already on loan and cannot be borrowed.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 6
+
+--- Borrow a book ---
+ISBN of the book: 9780000000000
+Member ID: M001
+Error: No book found with ISBN 9780000000000.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 7
+
+--- Return a book ---
+ISBN of the book: 9780132350884
+Member ID: M001
+Error: Anna Schmidt (M001) does not have 'Clean Code' on loan.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 7
+
+--- Return a book ---
+ISBN of the book: 9780262033848
+Member ID: M002
+Success: 'Introduction to Algorithms' returned by M002 after 14 day(s).
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 8
+
+--- View borrowing history ---
+Member ID (press Enter to show everyone): 
+No.   ISBN           Member   Borrowed    Returned    Status
+------------------------------------------------------------
+1     9781593279288  M001     2026-10-01  2026-10-15  Returned
+2     9780262033848  M002     2026-11-02  2026-11-16  Returned
+3     9780132350884  M004     2026-11-16  -           On loan
+(3 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 8
+
+--- View borrowing history ---
+Member ID (press Enter to show everyone): M004
+No.   ISBN           Member   Borrowed    Returned    Status
+------------------------------------------------------------
+3     9780132350884  M004     2026-11-16  -           On loan
+(1 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): abc
+'abc' is not a valid option. Please enter a number from 1 to 10.
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 10
+Goodbye! All changes have been saved.
+
+=================== SESSION 2 (after restart) ===================
+Welcome to the Library Management System
+Loaded 7 book(s), 4 member(s) and 3 transaction(s).
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 9
+
+--- View available books ---
+ISBN           Title                          Author                 Year  Status
+---------------------------------------------------------------------------------
+9780201633610  Design Patterns                Erich Gamma            1994  Available
+9780134685991  Effective Java                 Joshua Bloch           2018  Available
+9781491946008  Fluent Python                  Luciano Ramalho        2015  Available
+9780596007126  Head First Design Patterns     Eric Freeman           2004  Available
+9780262033848  Introduction to Algorithms     Thomas H. Cormen       2009  Available
+9781593279288  Python Crash Course            Eric Matthes           2019  Available
+(6 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 5
+
+--- Display all members ---
+ID       Name                     Email                          Loans
+----------------------------------------------------------------------
+M001     Anna Schmidt             anna.schmidt@example.com       0/3
+M002     David Okafor             david.okafor@example.com       0/3
+M003     Lena Fischer             lena.fischer@example.com       0/3
+M004     Jonas Weber              jonas.weber@example.com        1/3
+(4 record(s))
+
+========== LIBRARY MENU ==========
+ 1. Display all books
+ 2. Add a new book
+ 3. Search for a book
+ 4. Register a library member
+ 5. Display all members
+ 6. Borrow a book
+ 7. Return a book
+ 8. View borrowing history
+ 9. View available books
+10. Exit
+Select an option (1-10): 10
+Goodbye! All changes have been saved.
