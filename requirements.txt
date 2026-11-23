@@ -1,0 +1,4 @@
+# This project uses only the Python standard library (csv, datetime,
+# pathlib, shutil, sys, tempfile, unittest). No packages need installing.
+#
+# Requires Python 3.8 or newer.
